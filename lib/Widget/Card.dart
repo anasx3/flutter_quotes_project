@@ -17,7 +17,7 @@ class CardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Color.fromARGB(224, 107, 30, 159),
+      color: Color.fromARGB(223, 200, 46, 220),
       margin: EdgeInsets.all(11),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(11)),
       child: Container(
@@ -26,7 +26,7 @@ class CardWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Text(item.title,
-                style: TextStyle(fontSize: 18, color: Colors.white),
+                style: TextStyle(fontSize: 27, color: Colors.white),
                 textDirection: TextDirection.rtl),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

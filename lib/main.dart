@@ -154,8 +154,9 @@ class _QuotesState extends State<Quotes> {
       // 2
 
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(225, 114, 54, 175),
-        title: Text("Best Quotes", style: TextStyle(fontSize: 27)),
+        centerTitle: true,
+        backgroundColor: Color.fromARGB(224, 8, 2, 2),
+        title: Text("Best Quotes", style: TextStyle(fontSize: 29)),
       ),
 
       // 3
